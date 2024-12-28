@@ -95,6 +95,7 @@ Pada tahap ini, fokus utama kami adalah meningkatkan kualitas desain aplikasi un
 
 ## Apa yang Baru di Phase 2?
 
+- Splash Screen ketika aplikasi dibuka menampilkan logo selama 2 detik  
 - Palet warna baru yang dirancang untuk menarik perhatian pengguna.
 - Tata letak yang lebih bersih dengan jarak antar elemen yang proporsional.
 - Peningkatan ikon dan elemen grafis agar lebih modern.
