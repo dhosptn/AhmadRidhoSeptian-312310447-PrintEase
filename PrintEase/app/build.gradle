@@ -1,0 +1,59 @@
+// Top-level build file for your Android application
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services' // Letakkan ini setelah id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.printease'
+    compileSdk 34 // Selalu gunakan versi SDK terbaru jika memungkinkan
+
+    defaultConfig {
+        applicationId "com.example.printease"
+        minSdk 21
+        targetSdk 34 // Sesuaikan dengan versi SDK terbaru
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    // AndroidX dependencies
+    implementation 'androidx.appcompat:appcompat:1.6.1' // Versi terbaru
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    // Material Design Components
+    implementation 'com.google.android.material:material:1.9.0'
+
+    // JSON Parsing
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    // PDF Creation Library
+    implementation 'com.itextpdf:itextpdf:5.5.13.3'
+
+    // Firebase dependencies (gunakan BOM untuk mengelola versi secara konsisten)
+    implementation platform('com.google.firebase:firebase-bom:32.8.0') // Versi BOM terbaru
+    implementation 'com.google.firebase:firebase-database' // Gunakan versi BOM untuk menetapkan versi
+
+    // Testing dependencies
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
