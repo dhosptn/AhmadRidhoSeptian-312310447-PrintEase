@@ -1,4 +1,5 @@
 # UTS_PemrogramanMobile1
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Android_logo_2019.png" alt="Android Logo" width="100" height="100"> <img src="assets/logo_androstudio.jpeg" alt="Android Logo" width="100" height="100"> <img src="assets/firebase.png" alt="Android Logo" width="100" height="100">
 
 ## PROFIL
@@ -46,9 +47,11 @@ PrintEase adalah aplikasi yang dirancang untuk mempermudah proses pemesanan laya
 
 ![alt text](assets/UI&UX.png)
 
-## Status Proyek: **Phase 1**
+## Status Proyek: **Phase 1 Initial Development**
 
-## Fitur Utama :
+Pada tahap pertama ini, fokus kami adalah membangun fondasi utama aplikasi PrintEase. Kami mengembangkan fitur inti seperti unggah dokumen, proses pesanan sederhana, dan tampilan beranda. Desain pada tahap ini masih minimalis, dengan tujuan memastikan stabilitas dan fungsionalitas dasar aplikasi.
+
+## Fitur Utama Aplikasi :
 
 ### 1. Beranda
 
@@ -96,7 +99,6 @@ Pada tahap ini, fokus utama kami adalah meningkatkan kualitas desain aplikasi un
 
 ## Apa yang Baru di Phase 2?
 
-- Splash Screen ketika aplikasi dibuka menampilkan logo selama 2 detik  
 - Palet warna baru yang dirancang untuk menarik perhatian pengguna.
 - Tata letak yang lebih bersih dengan jarak antar elemen yang proporsional.
 - Peningkatan ikon dan elemen grafis agar lebih modern.
@@ -107,31 +109,77 @@ Pada tahap ini, fokus utama kami adalah meningkatkan kualitas desain aplikasi un
 
 <img src="assets/Launcher.png" alt="Android Logo" width="250" height="250">
 
-## Fitur Utama
+Ikon aplikasi utama yang muncul di layar beranda atau daftar aplikasi pada perangkat pengguna. Launcher Icon dirancang untuk mencerminkan identitas visual PrintEase yang modern, sederhana, dan profesional. Dengan desain baru, ikon ini dibuat:
+
+- Menggunakan format PNG dengan resolusi tinggi untuk memastikan tampilannya tajam di semua perangkat.
+- Menampilkan logo aplikasi dengan warna yang konsisten dengan tema desain.
+- Dirancang agar mudah dikenali dan memberikan kesan pertama yang positif.
+
+## Penjelasan Halaman Aplikasi
 
 ### 1. Splash Screen
 
 <img src="assets/Splash_phase2.jpg" alt="Android Logo" width="250" height="500">
 
+Halaman pembuka yang muncul saat aplikasi diluncurkan. Menampilkan logo dan nama aplikasi untuk memberikan kesan pertama yang menarik. Splash Screen juga berfungsi memuat data awal aplikasi.
+
 ### 2. Beranda
 
 <img src="assets/Landing_phase2.jpg" alt="Android Logo" width="250" height="500">
+
+Halaman utama yang menyambut pengguna setelah masuk ke aplikasi. Menampilkan informasi utama seperti:
+
+- Menu navigasi untuk menuju halaman lain (Pesanan, Riwayat).
+- Pilihan layanan cetak.
+- Tombol untuk memulai proses pemesanan baru.
 
 ### 3. Pesanan
 
 <img src="assets/Order_phase2.jpg" alt="Android Logo" width="250" height="500">
 
-### 4. Edit Pesanan
+Digunakan untuk mengunggah dokumen dan menyesuaikan detail pesanan, seperti:
+
+- Upload Dokumen.
+- Isi nama User.
+- Pilihan jenis cetakan (hitam putih/berwarna).
+- Ukuran kertas.
+- Jumlah salinan.
+- Estimasi harga.
+
+### 4. Konfirmasi Pesanan
 
 <img src="assets/OrderSummary_phase2.jpg" alt="Android Logo" width="250" height="500">
+
+Halaman ini memungkinkan pengguna untuk mengubah detail pesanan yang sudah dibuat sebelum konfirmasi. Perubahan dapat mencakup:
+
+- Mengganti dokumen.
+- Menyesuaikan jumlah halaman atau opsi cetak lainnya.
+- Memeriksa ulang detail pesanan.
 
 ### 5. Pesanan Sukses
 
 <img src="assets/OrderSuccess_phase2.jpg" alt="Android Logo" width="250" height="500">
 
+Setelah pembayaran berhasil, pengguna diarahkan ke halaman ini. Halaman ini berisi:
+
+- Konfirmasi bahwa pesanan telah diterima.
+- Informasi singkat tentang waktu pengambilan.
+- Tombol untuk kembali ke beranda atau melihat riwayat pesanan.
+
 ### 6. Riwayat Pesanan
 
 <img src="assets/History_phase2.jpg" alt="Android Logo" width="250" height="500">
+
+Menyimpan daftar pesanan sebelumnya. Pengguna dapat:
+
+- Melihat status pesanan (Selesai, Dalam Proses, dll.).
+- Mengakses detail pesanan yang sudah selesai.
+
+## Fitur Utama
+
+- Pesan cetakan dengan mudah.
+- Lihat status pesanan secara real-time.
+- Konfirmasi pesanan dengan detail lengkap.
 
 ## Cara Menggunakan Aplikasi
 
