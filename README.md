@@ -178,7 +178,11 @@ Menyimpan daftar pesanan sebelumnya. Pengguna dapat:
 ---
 ## Preview Video Aplikasi
 
-[Video Aplikasi](assets/videopreview_aplikasi.mp4)
+
+
+https://github.com/user-attachments/assets/e0e51ff1-3f9d-4eaf-bcf5-627f57594506
+
+
 
 ## Fitur Utama
 
