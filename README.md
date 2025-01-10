@@ -175,6 +175,11 @@ Menyimpan daftar pesanan sebelumnya. Pengguna dapat:
 - Melihat status pesanan (Selesai, Dalam Proses, dll.).
 - Mengakses detail pesanan yang sudah selesai.
 
+---
+## Preview Video Aplikasi
+
+[Video Aplikasi](assets/videopreview_aplikasi.mp4)
+
 ## Fitur Utama
 
 - Pesan cetakan dengan mudah.
